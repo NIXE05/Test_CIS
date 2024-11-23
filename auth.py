@@ -9,6 +9,7 @@ def login(username, password):
     query = "SELECT * FROM users WHERE username = %s"
     cursor.execute(query, (sanitized_username,))
     user = cursor.fetchone()
+    
     if user and check_password_hash(user['password'], password):
         return True
     return False
