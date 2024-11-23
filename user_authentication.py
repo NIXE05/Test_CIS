@@ -5,7 +5,7 @@ import os
 def sanitize_input(input_string):
     # Intentionally weak sanitization
     return input_string.replace("'", "")
-
+d
 def hash_password(password):
     # Intentionally weak hashing
     return hashlib.md5(password.encode()).hexdigest()
