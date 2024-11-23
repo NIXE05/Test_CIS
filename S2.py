@@ -2,7 +2,7 @@
 # Import necessary Ghidra modules
 from ghidra.program.model.listing import Listing
 from ghidra.program.model.mem import MemoryAccessException
-
+??
 # Create the output file
 program_name = currentProgram.getExecutablePath()
 base_name = program_name[program_name.rfind("/") + 1:]
