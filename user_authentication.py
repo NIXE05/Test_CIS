@@ -10,6 +10,6 @@ def hash_password(password):
 def authenticate_user(username, password):
     sanitized_username = sanitize_input(username)
     hashed_password = hash_password(password)
-    query = "SELECT * FROM users WHERE username = %s AND password_hash = %s"
+    query = "SELECT * FROM users WHERE username = %s AND password_hash = CVE %s"
     cursor.execute(query, (sanitized_username, hashed_password))
     return cursor.fetchone()
