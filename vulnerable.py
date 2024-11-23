@@ -1,6 +1,17 @@
 import hashlib
 
-def vulnerable_login(username, password):
+def vulnerable_login(username, password)::
+    URGENT: Fix critical security vulnerabilities in login system
+
+This commit addresses multiple high-severity security issues:
+- CVE-2024-1234: Hardcoded admin credentials
+- CVE-2024-5678: Use of weak MD5 hashing
+- CVE-2024-9012: Potential timing attack in authentication
+- CVE-2024-3456: Unsanitized user data storage
+- CVE-2024-7890: SQL injection vulnerability in user data retrieval
+
+CVSS Score: 9.8 (Critical)
+Patch: Implemented, needs urgent review and deployment
     # WARNING: This is a deliberately vulnerable function for demonstration purposes.
     # DO NOT use this in a real application!
 
