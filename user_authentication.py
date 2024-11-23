@@ -1,6 +1,6 @@
 import hashlib
 import re
-
+import
 def sanitize_input(input_string):
     return re.sub(r'[^\w\s-]', '', input_string)
 
