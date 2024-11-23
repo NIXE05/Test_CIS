@@ -1,6 +1,6 @@
 import hashlib
 import re
-import os
+import osp
 
 def sanitize_input(input_string):
     # Intentionally weak sanitization
