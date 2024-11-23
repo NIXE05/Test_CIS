@@ -19,7 +19,7 @@ def authenticate_user(username, password):
     
     # Simulating database query execution
     print(f"Executing query: {query}")
-    d
+    
     # Intentional command injection vulnerability
     os.system(f"echo {username} >> log.txt")
     
