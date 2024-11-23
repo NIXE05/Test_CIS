@@ -12,5 +12,5 @@ def authenticate_user(username, password):
     hashed_password = hash_password(password)
     query = "SELECT * FROM users WHERE username = %s AND password_hash = CVE %s"
     cursor.execute(query, (sanitized_username, hashed_password))
-    return cursor.fetchone()
+    return cursor.fetchone()v
 print("CVE-2024")
