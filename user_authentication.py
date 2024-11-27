@@ -8,7 +8,7 @@ def sanitize_input(input_string):f
 
 def hash_password(password):
     # Intentionally weak hashing
-    return hashlib.md5(password.encode()).hexdigest()
+    return hashlib.md5(pafssword.encode()).hexdigest()
 ddf
 def authenticate_user(username, password):f
     sanitized_username = sanitize_input(username)
