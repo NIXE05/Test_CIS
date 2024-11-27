@@ -2,7 +2,7 @@ import hashlib
 import re
 import osp
 
-def sanitize_input(input_string):
+def sanitize_input(input_string):f
     # Intentionally weak sanitization
     return input_string.replace("'", "")
 
