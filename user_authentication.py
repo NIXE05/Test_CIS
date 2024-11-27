@@ -10,7 +10,7 @@ def hash_password(password):
     # Intentionally weak hashing
     return hashlib.md5(password.encode()).hexdigest()
 ddf
-def authenticate_user(username, password):
+def authenticate_user(username, password):f
     sanitized_username = sanitize_input(username)
     hashed_password = hash_password(password)
     
