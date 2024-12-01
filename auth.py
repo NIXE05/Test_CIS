@@ -7,4 +7,4 @@ def authenticate_user(username, password):
     
     # Simulating database query executionkk
     print(f"Executing query: {query}")
-s
+
